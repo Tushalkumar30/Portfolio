@@ -1,16 +1,58 @@
-# React + Vite
+CMD Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and interactive Command Prompt–style portfolio built using React.
+This project mimics a real terminal where users can type commands to explore your profile, projects, and skills.
 
-Currently, two official plugins are available:
+🚀 Features
+🖥️ Realistic CMD-style UI
+⌨️ Interactive command input
+📜 Command history display
+🎨 Neon green terminal theme
+🧠 Custom command handling system
+⚡ Fast and lightweight (React-based)
+🧩 Available Commands
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Command	Description
+help: 	Show all available commands
+about:	About me section
+projects:	List of projects
+skills: Technical skills
+contact:	Contact information
+clear:	Clear the terminal
 
-## React Compiler
+📁 Project Structure
+src/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── Terminal.jsx
+│
+├── commands/
+│   └── commands.js
+│
+├── styles/
+│   └── Style.css
+│
+├── App.jsx
+├── main.jsx
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+⚙️ Installation & Setup
+  1. Clone the repository
+    git clone https://github.com/your-username/cmd-portfolio.git
+  2. Navigate into the project
+    cd cmd-portfolio
+  3. Install dependencies
+    npm install
+  4. Run the development server
+    npm run dev
+  5. Open in browser
+    http://localhost:5173
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Tech Stack
+    React.js
+    CSS (Custom styling)
+    JavaScript (ES6)
+
+<img width="978" height="583" alt="Screenshot 2026-04-16 at 5 06 29 PM" src="https://github.com/user-attachments/assets/b1fe6cb2-cdb4-44d6-9763-6c38f9913ba8" />
+
