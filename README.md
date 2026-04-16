@@ -24,7 +24,7 @@ clear:	Clear the terminal
 
 ⚙️ Installation & Setup
   1. Clone the repository
-    git clone https://github.com/your-username/cmd-portfolio.git
+    git clone https://github.com/Tushalkumar30/Portfolio.git
   2. Navigate into the project
     cd cmd-portfolio
   3. Install dependencies
