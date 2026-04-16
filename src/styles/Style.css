@@ -1,0 +1,119 @@
+/* Center screen */
+body {
+    margin: 0;
+    background: radial-gradient(circle at top, #1a1a1a, #0d0d0d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Consolas, "Courier New", monospace;
+  }
+  
+  /* MAIN CMD WINDOW (smaller) */
+  .app-container {
+    width: 700px;   /* ↓ from 900 */
+    height: 420px;  /* ↓ from 520 */
+    background: #0c0c0c;
+    border-radius: 8px;
+    overflow: hidden;
+  
+    box-shadow: 
+      0 8px 25px rgba(0, 0, 0, 0.9),
+      0 0 15px rgba(0, 255, 0, 0.15);
+  
+    border: 1px solid rgba(0, 255, 0, 0.15);
+  
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+  }
+  
+  .app-container:hover {
+    box-shadow: 
+      0 10px 30px rgba(0, 0, 0, 1),
+      0 0 20px rgba(0, 255, 0, 0.25);
+  }
+  
+  /* HEADER */
+  .terminal-header {
+    height: 30px; /* ↓ smaller */
+    font-size: 12px;
+    padding: 0 10px;
+  
+    background: linear-gradient(to bottom, #2a2a2a, #1c1c1c);
+    color: #ccc;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    border-bottom: 1px solid #333;
+  }
+  
+  /* Buttons */
+  .header-buttons {
+    display: flex;
+    gap: 6px;
+  }
+  
+  .header-buttons div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  .header-buttons .close { background: #ff5f56; }
+  .header-buttons .minimize { background: #ffbd2e; }
+  .header-buttons .maximize { background: #27c93f; }
+  
+  /* TERMINAL */
+  .terminal {
+    flex: 1;
+    padding: 12px; /* ↓ smaller */
+    font-size: 13px; /* ↓ smaller */
+    line-height: 1.4;
+  
+    color: #00ff9c;
+    overflow-y: auto;
+  
+    text-shadow: 0 0 3px rgba(0, 255, 156, 0.6);
+  }
+  
+  /* Command */
+  .cmd {
+    margin: 0;
+  }
+  
+  /* Input row */
+  .terminal-input {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+  }
+  
+  /* Prompt */
+  .terminal-input span {
+    margin-right: 5px;
+    color: #00ffaa;
+  }
+  
+  /* Input */
+  .terminal-input input {
+    background: transparent;
+    border: none;
+    color: #00ff9c;
+    outline: none;
+    flex: 1;
+    font-family: inherit;
+    font-size: 13px;
+  }
+  
+  /* Scrollbar */
+  .terminal::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .terminal::-webkit-scrollbar-thumb {
+    background: rgba(0, 255, 150, 0.3);
+    border-radius: 10px;
+  }
