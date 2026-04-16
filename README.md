@@ -20,21 +20,6 @@ skills: Technical skills
 contact:	Contact information
 clear:	Clear the terminal
 
-📁 Project Structure
-src/
-│
-├── components/
-│   ├── Header.jsx
-│   ├── Terminal.jsx
-│
-├── commands/
-│   └── commands.js
-│
-├── styles/
-│   └── Style.css
-│
-├── App.jsx
-├── main.jsx
 
 
 ⚙️ Installation & Setup
